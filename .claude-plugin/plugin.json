@@ -1,0 +1,19 @@
+{
+  "name": "editless",
+  "description": "Connect Claude Code to your Editless account.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Editless",
+    "url": "https://editless.studio"
+  },
+  "homepage": "https://editless.studio",
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "Editless API key",
+      "description": "Create a key on your Editless profile. It starts with el_live_.",
+      "sensitive": true,
+      "required": true
+    }
+  }
+}

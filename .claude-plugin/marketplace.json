@@ -1,0 +1,16 @@
+{
+  "name": "editless",
+  "description": "Connect Claude Code to your Editless account.",
+  "owner": {
+    "name": "Editless",
+    "url": "https://editless.studio"
+  },
+  "plugins": [
+    {
+      "name": "editless",
+      "source": "./",
+      "description": "Connect Claude Code to your Editless account.",
+      "version": "0.1.0"
+    }
+  ]
+}
